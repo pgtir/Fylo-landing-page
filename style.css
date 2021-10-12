@@ -1,0 +1,198 @@
+p {
+    font-family: 'Open Sans', sans-serif;
+    
+}
+nav img, footer img {
+    width: 84px;
+}
+
+.navbar .nav-item a {
+    font-family: 'Raleway', sans-serif;
+    color: hsl(243, 87%, 12%);
+    font-size: 12px;
+    font-weight: 500;
+}
+footer ul li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    list-style: none;
+}
+
+        
+
+h2, h6 {
+    color: hsl(243, 87%, 12%);
+}
+
+h6 {
+    font-size: large;
+}
+
+ header section p  {
+    color: hsl(243, 87%, 12%);
+    
+}
+
+input {
+    border: 2px solid hsl(0, 0%, 75%);
+}
+ #sign-in a, section#features .btn {
+    font-family: 'Raleway', sans-serif;
+    background-color: hsl(224, 93%, 58%);
+    color: hsl(240, 75%, 98%);
+    font-weight: 700;
+    letter-spacing: .04rem;
+    font-size: .9rem;
+ }
+
+ section.team {
+    background-color: hsl(240, 75%, 98%);
+    position: relative;
+    margin-top: 6.25rem;
+}
+
+section.team::before {
+    content: '';
+    background-image: url(images/bg-curve-mobile.svg);
+    background-size: cover;
+    height: 3.75rem;
+    width: 100%;
+    position: absolute;
+    top: -3.75rem;
+    left: 0;
+}
+
+
+section.team p {
+    color: hsl(243, 87%, 12%);
+    opacity: 75%;
+}
+
+section.team p.card-text {
+    color: hsl(243, 87%, 12%);
+    opacity: 100%;
+    font-size: .71rem;
+}
+
+.card .name {
+    font-size: .72rem;
+    letter-spacing: .03rem;
+}
+
+.card .designation {
+    font-size: .5rem;
+}
+section.team a {
+    font-size: 0.87rem;
+    color: hsl(170, 45%, 43%);
+    border-bottom: 1.6px solid hsl(170, 45%, 43%);
+    font-weight: 400;
+}
+
+.card .card-foot img {
+    width: 30px;
+}
+
+
+
+#sign-in {
+    background-color: hsl(238, 22%, 44%)
+    ;
+}
+
+#sign-in h5 {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: .04rem;
+}
+
+#sign-in p{
+    font-size: .9rem;
+    opacity: 95%;
+    font-family: 'Open Sans', sans-serif;
+}
+#sign-in a {
+    width: 100%;
+}
+
+@media (min-width: 768px){
+    p {
+        font-family: 'Open Sans', sans-serif;
+
+    }
+    h2, h6 {
+        font-family: 'Raleway', sans-serif;
+    }
+
+    
+
+    section.team::before {
+        content: '';
+        background-image: url(images/bg-curve-desktop.svg);
+        }
+        #sign-in a {
+            width: auto;
+        }
+}
+
+#sign-in input {
+    border-radius: none;
+}
+
+footer {
+    background-color: hsl(243, 87%, 12%);
+}
+
+.photo {
+    height: 17px;
+    width: 17px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+@media (min-width:992px) {
+    nav img, footer img {
+        width: 95px;
+    }
+    
+    .navbar .nav-item a, footer ul li{
+        font-size: 16px;
+        font-weight: 400;
+    }  
+     footer ul li{
+        font-size: 16px;
+        font-weight: 400;
+        color: white;
+    }  
+
+    section.team {
+        background-color: hsl(240, 75%, 98%);
+        position: relative;
+        margin-top: 6.25rem;
+    }
+    
+    section.team::before {
+        content: '';
+        background-image: url(images/bg-curve-desktop.svg);
+        background-size: cover;
+        height: 4.85rem;
+        width: 100%;
+        position: absolute;
+        top: -4.85rem;
+        left: 0;
+    }
+}
+
+@media (max-width: 992px){
+    ul {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 1440px){
+    .card {
+        width: 60%;
+    }
+    
+}
